@@ -1,0 +1,46 @@
+#EXERCISE 1
+def weekly_pay(hours, rate):
+    return hours * rate
+
+pay = weekly_pay(40, 22)
+
+print("Weekly Pay: $", pay)
+
+print(" ")
+
+
+#EXERCISE 2
+def weekly_pay(hours, rate):
+    return hours * rate
+
+name = input("Enter employee name: ")
+hours = float(input("Enter hours worked: "))
+rate = float(input("Enter hourly rate: "))
+
+pay = weekly_pay(hours, rate)
+
+print("Employee:", name)
+print("Weekly Pay = $", pay)
+
+print(" ")
+
+
+#EXERCISE 3
+def weekly_pay(hours, rate):
+    return hours * rate
+
+grand_payroll = 0
+
+for i in range(1, 4):
+    name = input("Enter employee name: ")
+    hours = float(input("Enter hours worked: "))
+    rate = float(input("Enter hourly rate: "))
+
+    pay = weekly_pay(hours, rate)
+    grand_payroll += pay
+
+    print(name, "= $", pay)
+
+print("Grand Payroll = $", grand_payroll)
+
+print(" ")

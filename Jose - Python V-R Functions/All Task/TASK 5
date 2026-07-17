@@ -1,0 +1,55 @@
+#EXERCISE 1
+def average_score(score1, score2, score3):
+    return (score1 + score2 + score3) / 3
+
+average = average_score(80, 90, 100)
+
+print("Average:", average)
+
+print(" ")
+
+
+#EXERCISE 2
+def average_score(score1, score2, score3, score4, score5):
+    return (score1 + score2 + score3 + score4 + score5) / 5
+
+scores = []
+
+for i in range(1, 6):
+    score = float(input("Enter score " + str(i) + ": "))
+    scores.append(score)
+
+average = average_score(scores[0], scores[1], scores[2], scores[3], scores[4])
+
+print("Average =", average)
+
+print(" ")
+
+
+#EXERCISE 3
+def average_score(score1, score2, score3, score4, score5):
+    return (score1 + score2 + score3 + score4 + score5) / 5
+
+scores = []
+
+for i in range(1, 6):
+    score = float(input("Enter score " + str(i) + ": "))
+    scores.append(score)
+
+average = average_score(scores[0], scores[1], scores[2], scores[3], scores[4])
+
+if average >= 90:
+    grade = "A"
+elif average >= 80:
+    grade = "B"
+elif average >= 70:
+    grade = "C"
+elif average >= 60:
+    grade = "D"
+else:
+    grade = "F"
+
+print("Average =", average)
+print("Grade =", grade)
+
+print(" ")

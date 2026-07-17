@@ -1,0 +1,38 @@
+#EXERCISE 1
+def multiply_numbers():
+    return 12 * 7
+
+answer = multiply_numbers()
+
+print("Answer =", answer)
+
+print(" ")
+
+
+#EXERCISE 2
+def multiply_numbers(width, height):
+    return width * height
+
+width = float(input("Enter the width: "))
+height = float(input("Enter the height: "))
+
+area = multiply_numbers(width, height)
+
+print("The area is:", area)
+
+print(" ")
+
+
+#EXERCISE 3
+def calculate_volume(length, width, height):
+    return length * width * height
+
+length = float(input("Enter the length: "))
+width = float(input("Enter the width: "))
+height = float(input("Enter the height: "))
+
+volume = calculate_volume(length, width, height)
+
+print("Volume =", volume)
+
+print(" ")

@@ -1,0 +1,39 @@
+#EXERCISE 1
+def hours_to_minutes(hours):
+    return hours * 60
+
+minutes = hours_to_minutes(5)
+
+print("Minutes:", minutes)
+
+print(" ")
+
+
+#EXERCISE 2
+def hours_to_minutes(hours):
+    return hours * 60
+
+hours = float(input("Enter hours: "))
+
+minutes = hours_to_minutes(hours)
+
+print("Hours =", hours)
+print("Minutes =", minutes)
+
+print(" ")
+
+
+#EXERCISE 3
+def hours_to_minutes(hours):
+    return hours * 60
+
+hours = float(input("Enter hours: "))
+
+minutes = hours_to_minutes(hours)
+seconds = minutes * 60
+
+print("Hours =", hours)
+print("Minutes =", minutes)
+print("Seconds =", seconds)
+
+print(" ")
