@@ -1,0 +1,41 @@
+#EXERCISE 1
+def simple_interest(principal, rate, time):
+    return (principal * rate * time) / 100
+
+interest = simple_interest(4000, 5, 4)
+
+print("Interest:", interest)
+
+print(" ")
+
+
+#EXERCISE 2
+def simple_interest(principal, rate, time):
+    return (principal * rate * time) / 100
+
+principal = float(input("Enter the principal: "))
+rate = float(input("Enter the rate: "))
+time = float(input("Enter the time in years: "))
+
+interest = simple_interest(principal, rate, time)
+
+print("Interest =", interest)
+
+print(" ")
+
+
+#EXERCISE 3
+def simple_interest(principal, rate, time):
+    return (principal * rate * time) / 100
+
+principal = float(input("Enter the principal: "))
+rate = float(input("Enter the rate: "))
+time = float(input("Enter the time in years: "))
+
+interest = simple_interest(principal, rate, time)
+final_amount = principal + interest
+
+print("Interest =", interest)
+print("Final Amount =", final_amount)
+
+print(" ")
